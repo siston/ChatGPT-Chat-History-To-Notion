@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-ChatGPT Full Log To Notion
+ChatGPT Chat History To Notion
+
 
 Simple Usage:
 1. pip install requests tqdm
@@ -1348,7 +1349,7 @@ def validate_block_content(block):
 
 def main():
     """Main execution function"""
-    print("🚀 Starting ChatGPT to Notion Importer (Security Fixed Version)...")
+    print("🚀 Starting ChatGPT to Notion Importer...")
     
     # Validate configuration
     if not validate_config():
