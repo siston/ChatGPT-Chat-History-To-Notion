@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-ChatGPT Full Log To Notion
+ChatGPT Chat History To Notion
 
 极简使用方法:
 1. pip install requests tqdm
@@ -1354,7 +1354,7 @@ def validate_block_content(block):
 
 def main():
     """主执行函数"""
-    print("🚀 启动 ChatGPT 到 Notion 导入器 (安全修复版)...")
+    print("🚀 启动 ChatGPT 到 Notion 导入器")
     
     # 验证配置
     if not validate_config():
