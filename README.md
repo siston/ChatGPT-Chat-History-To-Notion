@@ -9,6 +9,11 @@ A simple script to import all your chat history in ChatGPT into Notion. Let your
 
 Scripts in different languages ​​differ only in the interface text, and the execution effects are the same.
 
+### Screenshots
+
+![image](https://github.com/user-attachments/assets/2a4814d2-b195-46d6-a0ab-cf27f752dde6)
+
+
 ### Introduction
 
 This is a Python program, its goal is to import all the exported ChatGPT chat records into your Notion database. After that, you can easily use Notion AI to inherit a previous conversation.
