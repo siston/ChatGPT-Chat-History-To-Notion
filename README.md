@@ -49,7 +49,7 @@ Use Ctrl+C to interrupt the import, and when it runs next time, it will continue
 
 1. 在 ChatGPT 的界面右上角进入“设置”，然后选择“数据管理”，再点击导出。
 3. 等待，并收到一封来自 ChatGPT 的邮件，将邮件中的压缩包下载到本地，并解压，我们记下来称之为“聊天记录目录”。
-4. 从本项目下载 import_chatgpt.py 脚本，并放置在“聊天记录目录”。
+4. 从本项目下载 [import_chatgpt.py](https://github.com/Pls-1q43/ChatGPT-Full-Log-To-Notion/blob/main/import_chatgpt.py) 脚本，并放置在“聊天记录目录”。
 5. 在 Notion 中复制这个模板： https://www.notion.so/223ca795c956806f84b8da595d3647d6
 6. 在[Notion集成](https://www.notion.so/my-integrations)页面中创建一个新的集成，名字为 ChatGPT Full Log To Notion
 7. 在 Notion 中找到你刚才复制进自己 Workspace 的那个数据库，然后在右上角的“集成”中，将 ChatGPT Full Log To Notion 添加到页面中。
