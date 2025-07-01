@@ -1,0 +1,1 @@
+# ChatGPT-Full-Log-To-Notion
