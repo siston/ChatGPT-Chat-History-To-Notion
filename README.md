@@ -1,8 +1,10 @@
 # ChatGPT Full Log To Notion
 
-一个将你在 ChatGPT 的全部聊天记录导入 Notion 的简单脚本，让你的 Notion AI 继承 ChatGPT 记忆。
+一个将你在 ChatGPT 的全部聊天记录导入 Notion 的简单 Python 脚本，让你的 Notion AI 继承 ChatGPT 记忆。
 
-A simple script to import all your chat history in ChatGPT into Notion. Let your Notion AI inherit ChatGPT memory.
+A simple Python script to import all your chat history in ChatGPT into Notion, so that your Notion AI inherits ChatGPT memory.
+
+作者|Author：https://1q43.blog/
 
 - [English](#English)
 - [中文](#中文)
