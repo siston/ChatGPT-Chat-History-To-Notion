@@ -4,7 +4,7 @@
 
 A simple Python script to import all your chat history in ChatGPT into Notion, so that your Notion AI inherits ChatGPT memory.
 
-作者|Author：https://1q43.blog/
+作者 | Author：https://1q43.blog/
 
 - [English](#English)
 - [中文](#中文)
