@@ -28,7 +28,7 @@ You should not delete your ChatGPT account after using it, because some chat rec
 
 1. Go to "Settings" in the upper right corner of the ChatGPT interface, then select "Data Controls" and click Export.
 3. Wait and receive an email from ChatGPT. Download the compressed package in the email to your local computer and decompress it. We will write it down and call it "Chat History Directory".
-4. Download the import_chatgpt_en.py script from this project and place it in the "Chat History Directory".
+4. Download the [import_chatgpt_en.py](https://github.com/Pls-1q43/ChatGPT-Full-Log-To-Notion/blob/main/import_chatgpt_en.py) script from this project and place it in the "Chat History Directory".
 5. Copy this template in Notion: https://www.notion.so/223ca795c956806f84b8da595d3647d6
 6. Create a new integration in the [Notion Integration](https://www.notion.so/my-integrations) page, named ChatGPT Full Log To Notion
 7. Find the database you just copied into your Workspace in Notion, and then add ChatGPT Full Log To Notion to the page in "Integration" in the upper right corner.
