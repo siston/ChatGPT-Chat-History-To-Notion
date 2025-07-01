@@ -12,7 +12,9 @@ Scripts in different languages ​​differ only in the interface text, and the 
 ### Screenshots
 
 ![image](https://github.com/user-attachments/assets/2a4814d2-b195-46d6-a0ab-cf27f752dde6)
+![image](https://github.com/user-attachments/assets/25f6bbb6-e7b0-4178-9cd1-8fb7c05ea1f9)
 
+## English
 
 ### Introduction
 
