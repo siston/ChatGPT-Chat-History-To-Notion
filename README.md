@@ -1,6 +1,7 @@
 # ChatGPT Full Log To Notion
 
 一个将你在 ChatGPT 的全部聊天记录导入 Notion 的简单脚本，让你的 Notion AI 继承 ChatGPT 记忆。
+
 A simple script to import all your chat history in ChatGPT into Notion. Let your Notion AI inherit ChatGPT memory.
 
 - [English](#English)
@@ -57,4 +58,5 @@ Use Ctrl+C to interrupt the import, and when it runs next time, it will continue
 10. 然后进入到聊天记录目录，运行脚本：python import_chatgpt.py
 
 它支持导入图片和 Canvas，以及大部分的对话，支持断点续传。但为了尽可能多的处理异常字符，它的效率较慢，1000 个对话大约需要 6 小时。在完整导入之前，不要改动目标数据库。
+
 使用 Ctrl+C 可以中断导入，当下次运行时，它将从未完成的部分继续。如果你需要重头开始，需要删除聊天记录目录中的 processed_ids.log 文件。
