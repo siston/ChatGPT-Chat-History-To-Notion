@@ -35,8 +35,8 @@ You should not delete your ChatGPT account after using it, because some chat rec
 6. Create a new integration in the [Notion Integration](https://www.notion.so/my-integrations) page, named ChatGPT Full Log To Notion
 7. Find the database you just copied into your Workspace in Notion, and then add ChatGPT Full Log To Notion to the page in "Integration" in the upper right corner.
 8. Use an editor to open the import_chatgpt_en.py you downloaded locally, follow the prompts to set NOTION_API_KEY (find it in your new integration, such as: ntn_54351xxxxxxxxxxxxxxxxd) and NOTION_DATABASE_ID (find it in the share button of Notion, such as: 223ca795c956806f84b8da595d3647d6), and then save.
-9. Enter the terminal and first execute pip install requests tqdm to install dependencies;
-10. Then enter the chat history directory and run the script: python import_chatgpt_en.py
+9. Enter the terminal and first execute ```pip install requests tqdm``` to install dependencies;
+10. Then enter the chat history directory and run the script: ```python import_chatgpt_en.py```
 
 It supports importing images and canvas, as well as most conversations, and supports breakpoint resuming. But in order to handle as many abnormal characters as possible, it is slow, and 1000 conversations take about 6 hours. Do not modify the target database before the complete import.
 
@@ -63,8 +63,8 @@ Use Ctrl+C to interrupt the import, and when it runs next time, it will continue
 6. 在[Notion集成](https://www.notion.so/my-integrations)页面中创建一个新的集成，名字为 ChatGPT Full Log To Notion
 7. 在 Notion 中找到你刚才复制进自己 Workspace 的那个数据库，然后在右上角的“集成”中，将 ChatGPT Full Log To Notion 添加到页面中。
 8. 用编辑器打开你下载到本地的 import_chatgpt.py，按照其中的提示设置 NOTION_API_KEY（在你新建的集成中查找，形如：ntn_54351xxxxxxxxxxxxxxxxd）和 NOTION_DATABASE_ID（在 Notion 的分享按钮中查找，形如：223ca795c956806f84b8da595d3647d6），然后保存。
-9. 进入终端，首先执行 pip install requests tqdm 安装依赖；
-10. 然后进入到聊天记录目录，运行脚本：python import_chatgpt.py
+9. 进入终端，首先执行 ```pip install requests tqdm``` 安装依赖；
+10. 然后进入到聊天记录目录，运行脚本：```python import_chatgpt.py```
 
 它支持导入图片和 Canvas，以及大部分的对话，支持断点续传。但为了尽可能多的处理异常字符，它的效率较慢，1000 个对话大约需要 6 小时。在完整导入之前，不要改动目标数据库。
 
